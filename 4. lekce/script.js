@@ -1,5 +1,5 @@
 let isLoggednIn = true;
-let isAdmin = true;
+let isAdmin = false;
 
 if (isLoggednIn) {
 
@@ -12,15 +12,14 @@ if (isAdmin){
  }else {
 console.log("Jsi přihlášen jako uživatel")
 }  
-{
+}else{
     console.log("Nejsi přihlášen")
+
 }
-}
-let age = 31;
+let age = 16;
 let hasDriverLicense = true;
 
 if (age>= 18 && hasDriverLicense){
-
 console.log("Nemůžeš řídit!")
 } else {
     console.log("Nemůžeš řídit!")
@@ -28,4 +27,9 @@ console.log("Nemůžeš řídit!")
 let isHoliday = false;
 let isWeekend = true;
 
+if (isHoliday || isweekend){
+    console.log("Je čas relaxovat");
 
+}else{
+    console.log("Musíme pracovat!")
+}
