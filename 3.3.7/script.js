@@ -42,3 +42,7 @@ function dělení(num1,num2){
     console.log(num1 / num2)
 }
 dělení(14,7)
+function odcitani(num1,num2){
+    console.log(num1-num2)
+}
+odcitani(13,8)
