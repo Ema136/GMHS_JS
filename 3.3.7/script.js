@@ -8,7 +8,7 @@ ahoj();
 let greeting = "Nazdárek";
 
 function showGreeting (){
-console.log ("greeting");
+console.log ("Nazdárek");
 }
 showGreeting();
 
